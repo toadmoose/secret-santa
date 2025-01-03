@@ -187,6 +187,9 @@ function SecretSantaGenerator() {
                     value={participant.email}
                     onChange={(e) => handleParticipantChange(index, 'email', e.target.value)}
                   />
+                  <p className="text-sm text-gray-500 mt-1">
+                    ⚠️ Some email providers (especially .edu addresses) may block these emails. Please use a personal email address that can receive automated messages.
+                  </p>
                 </div>
               </div>
             ))}
