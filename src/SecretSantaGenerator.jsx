@@ -78,8 +78,8 @@ function SecretSantaGenerator() {
         receiver: shuffled[index]
       }));
 
-      // Send assignments to the server
-      const response = await fetch('http://localhost:3000/send-assignments', {
+      // Send assignments to the deployed backend
+      const response = await fetch('https://secret-santa-server-q1si.onrender.com/send-assignments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
