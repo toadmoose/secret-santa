@@ -1,8 +1,22 @@
-# React + Vite
+# Secret Santa Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application that simplifies organizing Secret Santa gift exchanges. Users can input participant details, and the app automatically generates and emails secret assignments to all participants.
 
-Currently, two official plugins are available:
+## Technologies Used
+- Frontend: React, TailwindCSS
+- Backend: Node.js, Express
+- Email Service: Nodemailer
+- Deployment: Netlify (frontend), Render (backend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- User-friendly interface for setting up gift exchanges
+- Automated random assignment generation
+- Email notifications to all participants
+- Mobile-responsive design
+- Real-time validation and error handling
+
+## Live Demo
+[Visit the live application](https://secret-santa-assigner.netlify.app)
+
+## Areas of Difficulty
+- could not figure out how to send to .edu emails
